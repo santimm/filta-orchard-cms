@@ -10,5 +10,16 @@
     "draftAndPublish": true
   },
   "pluginOptions": {},
-  "attributes": {}
+  "attributes": {
+    "intro_gallery": {
+      "type": "component",
+      "component": "home.intro-gallery",
+      "repeatable": false
+    },
+    "articles_cards": {
+      "type": "component",
+      "component": "home.articles-cards",
+      "repeatable": false
+    }
+  }
 }

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_home_articles_cards",
+  "info": {
+    "displayName": "articles cards",
+    "icon": "dashboard"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "cards": {
+      "type": "component",
+      "component": "home.cards",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

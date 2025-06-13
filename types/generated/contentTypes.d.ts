@@ -384,9 +384,11 @@ export interface ApiHomeHome extends Struct.SingleTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
+    articles_cards: Schema.Attribute.Component<'home.articles-cards', false>;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    intro_gallery: Schema.Attribute.Component<'home.intro-gallery', false>;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<'oneToMany', 'api::home.home'> &
       Schema.Attribute.Private;

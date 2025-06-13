@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_home_intro_galleries",
+  "info": {
+    "displayName": "intro gallery",
+    "icon": "dashboard"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "highlight": {
+      "type": "string"
+    },
+    "highlight_description": {
+      "type": "text"
+    },
+    "gallery": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    }
+  },
+  "config": {}
+}
